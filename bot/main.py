@@ -22,7 +22,7 @@ while True:
             response = event.text.lower()
             if event.from_user and not (event.from_me):
                 if response == "1":
-                    vk_session.method('messages.send', {'user_id': event.user_id, 'message': 'Привет, друг!', 'random_id': 0})
+                    vk_session.method('messages.send', {'user_id': event.user_id, 'message': 'Привет, другb!', 'random_id': 0})
                 elif response == "2":
                     vk_session.method('messages.send', {'user_id': event.user_id, 'message': 'Пока, друг!', 'random_id': 0})
                 elif response == "котики":
