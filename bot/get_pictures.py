@@ -20,4 +20,4 @@ def get(vk_session, id_group,vk):
         print(attachment)
         return attachment
     except:
-        return get(vk_session, id_group, vk)
+        return get(vk_session, id_group, vk )
